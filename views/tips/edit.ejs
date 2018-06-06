@@ -1,0 +1,13 @@
+<h1>
+    Edit tip:
+</h1>
+
+<form method="POST" action="/quizzes/<%= quiz.id %>/tips/<%=tip.id%>">
+
+
+    <div class="wideRow">
+        <span class="itemNarrow">Edit Tip</span>
+        <input type="text" class="itemWide" name="tip" id="tip"  />
+        <input type="submit" class="itemNarrow" value="Save">
+    </div>
+</form>
